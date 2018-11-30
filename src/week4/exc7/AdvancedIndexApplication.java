@@ -36,12 +36,20 @@ public class AdvancedIndexApplication {
 
         List<Topic> stored = bookTopics.get(3);
         stored.add(newTopic);
-        System.out.println(bookTopics);
+        System.out.println("Index: " + bookTopics);
 
         boolean containsKey = bookTopics.containsKey(3);
         if (containsKey){
             System.out.println("The page number "+ page1 +" exists as key.");
         }else System.out.println("");
+
+        List<Topic> stored2 = bookTopics.get(7);
+        System.out.println("The topics in page number " + page2 + " are: " + stored2);
+
+        int size = bookTopics.size();
+        System.out.println("bookTopics size: " + size);
+
+
 
 
 
