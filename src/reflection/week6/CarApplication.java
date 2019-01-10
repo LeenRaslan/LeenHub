@@ -1,4 +1,4 @@
-package reflection.week6;
+/*package reflection.week6;
 
 public class CarApplication {
     public static void main(String[] args) {
@@ -8,3 +8,4 @@ public class CarApplication {
         hansel.haveATry(automaticCar);
     }
 }
+*/
