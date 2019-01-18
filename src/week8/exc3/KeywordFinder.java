@@ -1,4 +1,4 @@
-/*package week8.exc3;
+package week8.exc3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,4 +29,3 @@ public class KeywordFinder {
         return finder(words , e -> e.endsWith("ful"));
     }
 }
-*/
