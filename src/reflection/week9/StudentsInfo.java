@@ -35,7 +35,8 @@ public class StudentsInfo {
     public Integer getWritingScore() {
         return writingScore;
     }
-    public Integer getTotalScore(){
-        return mathScore+readingScore+writingScore;
+
+    public Integer getAverageScore(){
+        return (mathScore+readingScore+writingScore)/3;
     }
 }
