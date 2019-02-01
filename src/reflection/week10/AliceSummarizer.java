@@ -59,6 +59,8 @@ public class AliceSummarizer {
 
     public static void main(String[] args) {
         AliceSummarizer summarizer = new AliceSummarizer();
+        AliceReader reader = new AliceReader();
+        System.out.println(reader.getWords());
         System.out.println(summarizer.getNumberOfWords());
         System.out.println(summarizer.getNumberOfDistinctWords());
         System.out.println(summarizer.getLongestWord());
